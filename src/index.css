@@ -1,0 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap");
+@import "tailwindcss";
+
+* {
+  font-family: "Zalando Sans SemiExpanded", sans-serif;
+}
