@@ -74,9 +74,12 @@ export const Header = () => {
             >
               Maqolalar
             </Link>
-            <span className="cursor-pointer hover:text-[#20B486] transition">
+            <Link
+              to="/contact"
+              className="cursor-pointer hover:text-[#20B486] transition"
+            >
               Aloqa
-            </span>
+            </Link>
             <span className="cursor-pointer hover:text-[#20B486] transition">
               FAQ's
             </span>

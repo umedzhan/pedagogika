@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "/src/pages/home";
 import AboutUs from "./src/pages/about-us";
+import Contact from "./src/pages/contact";
 import Login from "./src/pages/auth/login";
 import Register from "./src/pages/auth/register";
 import Profile from "./src/pages/profile";
@@ -21,6 +22,7 @@ const Router = () => {
       <Route path="/articles/create" element={<CreateArticle />} />
       <Route path="/articles/:id" element={<ArticleDetail />} />
       <Route path="/articles/edit/:id" element={<EditArticle />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   );
 };
