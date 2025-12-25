@@ -114,7 +114,7 @@ export const AboutUs = () => {
                       viewport={{ once: true }}
                       className="flex items-start gap-3"
                     >
-                      <div className="w-2 h-2 bg-green-600 rounded-full mt-2 flex-shrink-0" />
+                      <div className="w-2 h-2 bg-green-600 rounded-full mt-2 shrink-0" />
                       <span className="text-lg">{item}</span>
                     </motion.li>
                   ))}
@@ -123,7 +123,7 @@ export const AboutUs = () => {
               <div className="bg-linear-to-br from-green-50 to-blue-50 p-10 rounded-3xl shadow-xl">
                 <div className="text-center">
                   <div className="text-6xl font-extrabold text-green-700 mb-2">
-                    2018
+                    2025
                   </div>
                   <p className="text-xl font-semibold text-gray-800">
                     Yildan beri faol
@@ -138,7 +138,7 @@ export const AboutUs = () => {
         </section>
 
         {/* STATS SECTION */}
-        <section className="py-16 bg-gradient-to-r from-green-600 to-green-700">
+        <section className="py-16 bg-linear-to-r from-green-600 to-green-700">
           <div className="max-w-7xl mx-auto px-6 lg:px-[120px]">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
               {stats.map((stat, i) => (
@@ -187,10 +187,10 @@ export const AboutUs = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: i * 0.1 }}
                   viewport={{ once: true }}
-                  className="group bg-gradient-to-br from-gray-50 to-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
+                  className="group bg-linear-to-br from-gray-50 to-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
                 >
                   <div className="relative overflow-hidden rounded-xl mb-5">
-                    <div className="bg-gradient-to-br from-green-400 to-blue-500 w-full h-48 rounded-xl flex items-center justify-center text-white text-6xl font-bold">
+                    <div className="bg-linear-to-br from-green-400 to-blue-500 w-full h-48 rounded-xl flex items-center justify-center text-white text-6xl font-bold">
                       {member.image ? (
                         <img
                           src={member.image}
@@ -224,7 +224,7 @@ export const AboutUs = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="max-w-4xl mx-auto text-center bg-gradient-to-r from-green-600 to-green-700 p-12 rounded-3xl shadow-2xl"
+            className="max-w-4xl mx-auto text-center bg-linear-to-r from-green-600 to-green-700 p-12 rounded-3xl shadow-2xl"
           >
             <h2 className="text-4xl font-extrabold text-white mb-6">
               Ilmiy hamjamiyatga qo‘shiling

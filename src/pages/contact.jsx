@@ -21,7 +21,7 @@ export const Contact = () => {
   const contacts = [
     {
       icon: Mail,
-      label: "Email",
+      label: "Elektron pochta",
       value: "info@pedagogika.uz",
       href: "mailto:info@pedagogika.uz",
     },
@@ -71,10 +71,10 @@ export const Contact = () => {
         <Header />
       </div>
 
-      <div className="min-h-screen bg-gradient-to-br from-[#F5F5F4] via-white to-[#F5F5F4]">
+      <div className="min-h-screen bg-linear-to-br from-[#F5F5F4] via-white to-[#F5F5F4]">
         {/* HERO SECTION */}
         <section className="relative py-24 lg:py-32 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-r from-green-700 to-green-900 opacity-95" />
+          <div className="absolute inset-0 bg-linear-to-r from-green-700 to-green-900 opacity-95" />
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
@@ -116,7 +116,7 @@ export const Contact = () => {
                       viewport={{ once: true }}
                       className="flex items-start gap-5 p-5 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
                     >
-                      <div className="w-12 h-12 bg-gradient-to-r from-green-600 to-green-700 rounded-xl flex items-center justify-center text-white flex-shrink-0">
+                      <div className="w-12 h-12 bg-linear-to-r from-green-600 to-green-700 rounded-xl flex items-center justify-center text-white shrink-0">
                         <contact.icon className="w-6 h-6" />
                       </div>
                       <div>
@@ -162,7 +162,7 @@ export const Contact = () => {
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ delay: i * 0.1 }}
                         viewport={{ once: true }}
-                        className={`w-12 h-12 bg-gray-100 rounded-xl flex items-center justify-center text-gray-700 hover:bg-gradient-to-r from-green-600 to-green-700 ${social.color} text-white transition-all duration-300 transform hover:scale-110 shadow-lg`}
+                        className={`w-12 h-12 bg-green-300 rounded-xl flex items-center justify-center text-gray-700 hover:bg-linear-to-r from-green-600 to-green-700 ${social.color} text-white transition-all duration-300 transform hover:scale-110 shadow-lg`}
                       >
                         <social.icon className="w-6 h-6" />
                       </motion.a>
@@ -194,7 +194,7 @@ export const Contact = () => {
 
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-2">
-                      Email
+                      Elektron pochta
                     </label>
                     <input
                       type="email"
@@ -232,7 +232,7 @@ export const Contact = () => {
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     type="submit"
-                    className="w-full bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white py-5 rounded-xl font-bold text-lg shadow-xl flex items-center justify-center gap-3 transition-all duration-300"
+                    className="w-full bg-linear-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white py-5 rounded-xl font-bold text-lg shadow-xl flex items-center justify-center gap-3 transition-all duration-300"
                   >
                     <Send className="w-6 h-6" />
                     Xabar yuborish
@@ -271,7 +271,7 @@ export const Contact = () => {
         </section>
 
         {/* FOOTER CTA */}
-        <section className="py-16 bg-gradient-to-r from-green-700 to-green-900">
+        <section className="py-16 bg-linear-to-r from-green-700 to-green-900">
           <div className="max-w-4xl mx-auto text-center px-6">
             <h3 className="text-3xl lg:text-4xl font-extrabold text-white mb-6">
               Savolingiz bormi? Bizga yozing!
